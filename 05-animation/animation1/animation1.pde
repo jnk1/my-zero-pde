@@ -15,5 +15,5 @@ void draw() {
 
     // ellipse(frameCount, 300, 50, 50);  // 少しずつX座標が増える＝右に移動する円
 
-    ellipse(second() * 10, 300, 50, 50);  // 少しずつ右に移動する
+    ellipse(second() * 10, 300, random(10, 200), random(10, 200));  // 少しずつ右に移動する
 }
